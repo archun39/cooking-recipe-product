@@ -1,6 +1,7 @@
 import openai
 import os
 from dotenv import load_dotenv
+import setting
 
 class ModelManager:
     def __init__(self):
@@ -13,4 +14,5 @@ class ModelManager:
         openai.api_key = self.api_key
         self.max_tokens = 500
         self.model_setting = {
+            
         }
