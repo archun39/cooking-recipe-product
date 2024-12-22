@@ -79,7 +79,7 @@ class ModelManager:
             response = openai.chat.completions.create(
                 model=self.model_setting["model"],
                 messages=[
-                    self.model_setting["role_message"],
+                    self.model_setting["summary_message"],
                     {"role": "user",
                      "content": data
                     }
