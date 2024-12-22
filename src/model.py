@@ -14,7 +14,7 @@ class ModelManager:
         openai.api_key = self.api_key
         self.api_key = None
         
-        self.MAX_TOKENS = 500
+        self.MAX_TOKENS = 3000
         self.model_setting = {
             "model": setting.model,
             "role_message": {
