@@ -12,6 +12,8 @@ class ModelManager:
             raise ValueError("OPENAI_API_KEY를 설정해 주세요.")
         
         openai.api_key = self.api_key
+        self.api_key = None
+        
         self.MAX_TOKENS = 500
         self.model_setting = {
             "model": setting.model,
@@ -38,6 +40,5 @@ class ModelManager:
             return result
         
         except openai.error.OpenAIError as e:
-            print(f"OpenAI 오류: {e}")
+            print(f"OpenAI API 오류: {e}")
             return "오류 발생"
-        
