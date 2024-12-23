@@ -74,7 +74,7 @@ import input, model
 
 def main():
     # 숫자를 변경하여 분석할 스크립트를 선택합니다 (1~4).
-    script = input.InputManager().read_file(2)  # 1번 스크립트를 읽음
+    script = input.InputManager().read_file(2)  # 2번 스크립트를 읽음
     gpt = model.ModelManager()
     res = gpt.get_summary(script)
     print(res)
