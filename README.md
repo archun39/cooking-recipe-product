@@ -4,6 +4,9 @@
 `Cooking Recipe Product`는 요리 영상의 스크립트에서 **재료**와 **조리 과정**을 자동으로 추출하는 AI 기반 애플리케이션입니다.  
 이 애플리케이션은 요리 콘텐츠 제작자나 요리 애호가들에게 효율적인 레시피 관리 도구를 제공합니다.
 
+### Notion
+https://amazing-scion-ac4.notion.site/cooking-recipe-product-16468204232e80ec9f14e2b74200883f?pvs=4
+
 ---
 
 ## 🎯 주요 기능
