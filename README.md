@@ -38,6 +38,10 @@
 
 3. 환경 변수 설정:
     - `.env` 파일 생성:
+      ```bash
+      cp .env.example .env
+      vi .env
+      ```
     - OpenAI API 키를 설정합니다.
       ```plaintext
         OPENAI_API_KEY=your_openai_api_key
