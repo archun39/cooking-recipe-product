@@ -122,6 +122,7 @@ cooking-recipe-product/
 │   ├── main.py           # 애플리케이션 진입점
 │   ├── input.py          # InputManager 클래스
 │   ├── model.py          # ModelManager 클래스
+│   ├── setting.py        # prompt 파일
 ├── requirements.txt      # Python 종속성 파일
 ├── Dockerfile            # Docker 설정 파일
 ├── .env.example          # 환경 변수 예시
